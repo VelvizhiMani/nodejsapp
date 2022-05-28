@@ -10,7 +10,7 @@ class AccountsList extends React.Component {
   }
   }
   componentDidMount() {
-    axios.get('http://localhost:4000/accounts')
+    axios.get('http://13.127.242.55:4000/accounts')
         .then(response => {
             this.setState({
               accountslist: response.data
