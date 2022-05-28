@@ -36,7 +36,7 @@ class AccountsEdit extends React.Component {
         }
       }
       componentDidMount() {
-        axios.get('http://localhost:4000/accounts/'+this.props.match.params.id)
+        axios.get('http://13.127.242.55:4000/accounts/'+this.props.match.params.id)
             .then(response => {
                 this.setState({ 
                     orginname: response.data.orginname, 
@@ -98,7 +98,7 @@ class AccountsEdit extends React.Component {
         })
       }
       componentDidMount() {
-        axios.get('http://localhost:4000/category/')
+        axios.get('http://13.127.242.55:4000/category/')
           .then(response => {
             this.setState({
               categorylist: response.data
@@ -107,7 +107,7 @@ class AccountsEdit extends React.Component {
           .catch(function (error) {
             console.log(error);
           })
-          axios.get('http://localhost:4000/subcategory/')
+          axios.get('http://13.127.242.55:4000/subcategory/')
           .then(response => {
             this.setState({
               subcategorylist: response.data
@@ -116,7 +116,7 @@ class AccountsEdit extends React.Component {
           .catch(function (error) {
             console.log(error);
           })
-          axios.get('http://localhost:4000/product/')
+          axios.get('http://13.127.242.55:4000/product/')
           .then(response => {
             this.setState({
               productlist: response.data
