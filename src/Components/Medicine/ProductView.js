@@ -226,7 +226,7 @@ class ProductView extends React.Component {
                         </tr>
                         <tr>
                             <th class="bg-gray">Product Image</th>
-                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.product_img} /></td>
+                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.product_img} alt="drugcarts" /></td>
                             <th class="bg-gray">Url</th>
                             <td>{this.state.url}</td>
                         </tr>
