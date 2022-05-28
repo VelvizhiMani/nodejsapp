@@ -64,7 +64,7 @@ class AccountsAdd extends React.Component {
             date: this.state.date,
         };
 
-        axios.post('http://localhost:4000/accounts', obj)
+        axios.post('http://13.127.242.55:4000/accounts', obj)
             .then(res => console.log(res.data));
         
       // Redirect to Student List 
@@ -84,7 +84,7 @@ class AccountsAdd extends React.Component {
           .catch(function (error) {
             console.log(error);
           })
-          axios.get('http://localhost:4000/subcategory/')
+          axios.get('http://13.127.242.55:4000/subcategory/')
           .then(response => {
             this.setState({
               subcategorylist: response.data
@@ -93,7 +93,7 @@ class AccountsAdd extends React.Component {
           .catch(function (error) {
             console.log(error);
           })
-          axios.get('http://localhost:4000/product/')
+          axios.get('http://13.127.242.55:4000/product/')
           .then(response => {
             this.setState({
               productlist: response.data
