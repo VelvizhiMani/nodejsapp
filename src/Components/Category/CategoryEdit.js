@@ -211,7 +211,7 @@ class CategoryEdit extends React.Component {
                       <div class="col-md-4">
                           <div class="form-group">
                             <label class="labelheight">Category Image</label>
-                            <img src="https://assets1.drugcarts.com/category/thumb/category16232529925952.webp" style={{width:'40px',height:'20px'}}/>
+                            <img src="https://assets1.drugcarts.com/category/thumb/category16232529925952.webp" style={{width:'40px',height:'20px'}} alt="drugcarts"/>
                             {/* <img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.product_img} alt="Drugcarts" class="img-box1"/> */}
                              <div class="input-group">
                               <div class="input-group-addon">
