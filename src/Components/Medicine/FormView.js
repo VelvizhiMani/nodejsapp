@@ -84,7 +84,7 @@ class FormView extends React.Component {
                         </tr>
                         <tr>
                             <th class="bg-gray">Image</th>
-                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.picture} /></td>
+                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.picture} alt="drugcarts"/></td>
                             <th class="bg-gray">Image Alt Tag</th>
                             <td>{this.state.alt}</td>
                         </tr>
