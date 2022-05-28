@@ -136,7 +136,7 @@ class FormEdit extends React.Component {
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label for="Categoryname">Image</label><img src="" />
+                                                    <label for="Categoryname">Image</label><img src="" alt="drugcarts"/>
                                                     <input type="file" name='image' class="form-control" 
                                                     onChange={this.onChangePicture}
                                                     id="image" />
