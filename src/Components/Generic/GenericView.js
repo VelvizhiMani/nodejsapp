@@ -160,7 +160,7 @@ class GenericView extends React.Component {
                             <th class="bg-gray">Generices</th>
                             <td>{this.state.generices}</td>
                             <th class="bg-gray">Category Image</th>
-                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.gen_img} /></td>
+                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.gen_img} alt="drugcarts"/></td>
                         </tr>
                         <tr>
                             <th class="bg-gray">URL</th>
@@ -170,7 +170,7 @@ class GenericView extends React.Component {
                         </tr>
                         <tr>
                             <th class="bg-gray">Vedio Upload</th>
-                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.vedio} /></td>
+                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.vedio} alt="drugcarts"/></td>
                             <th class="bg-gray">Vedio Alt</th>
                             <td>{this.state.vedioalt}</td>
                         </tr>
