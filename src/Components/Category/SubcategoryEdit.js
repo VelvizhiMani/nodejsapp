@@ -134,7 +134,7 @@ class SubcategoryEdit extends React.Component {
               <small>Control panel</small>
             </h1>
             <ol class="breadcrumb">
-              <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+              <li><Link to="#"><i class="fa fa-dashboard"></i> Home</Link></li>
               <li class="active">Dashboard</li>
             </ol>
           </section>
@@ -188,7 +188,7 @@ class SubcategoryEdit extends React.Component {
                       </div>
                       <div class="col-md-4">
                         <div class="form-group">
-                          <label class="labelheight">Subcategory Image</label><img src=""/>
+                          <label class="labelheight">Subcategory Image</label><img src="" alt="drugcarts"/>
                           <div class="input-group">
                             <div class="input-group-addon">
                               <i class="fa fa-image"></i>
@@ -206,7 +206,7 @@ class SubcategoryEdit extends React.Component {
                       </div>
                       <div class="col-md-4">
                         <div class="form-group">
-                          <label class="labelheight">Video Upload</label><img src="" />
+                          <label class="labelheight">Video Upload</label><img src="" alt="drugcarts" />
                           <div class="input-group">
                             <div class="input-group-addon">
                               <i class="fa fa-image"></i>
@@ -224,7 +224,7 @@ class SubcategoryEdit extends React.Component {
                       </div>
                       <div class="col-md-4">
                         <div class="form-group">
-                          <label>Page Banner Image</label><img src="" />
+                          <label>Page Banner Image</label><img src="" alt="drugcarts"/>
                           <div class="input-group">
                             <div class="input-group-addon">
                               <i class="fa fa-text-width" aria-hidden="true"></i>
