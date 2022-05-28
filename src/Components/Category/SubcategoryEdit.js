@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 class SubcategoryEdit extends React.Component {
   constructor(props) {
