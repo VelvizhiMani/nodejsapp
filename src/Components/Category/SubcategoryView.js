@@ -98,13 +98,13 @@ class SubcategoryView extends React.Component {
                         </tr>
                         <tr>
                             <th class="bg-gray">Category Image</th>
-                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.cat_img} /></td>
+                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.cat_img} alt="drugcarts"/></td>
                             <th class="bg-gray">Video Upload</th>
-                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.vedio} /></td>
+                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.vedio} alt="drugcarts"/></td>
                         </tr>
                         <tr>
                             <th class="bg-gray">Page Banner</th>
-                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.banner} /></td>
+                            <td ><img src={"https://my-drugcarts-bucket.s3.ap-south-1.amazonaws.com/"+this.state.banner} alt="drugcarts"/></td>
                             <th class="bg-gray">Vedio Alt Tag</th>
                             <td>{this.state.vedioalt}</td>
                         </tr>
